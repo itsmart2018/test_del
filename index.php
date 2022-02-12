@@ -203,7 +203,7 @@
                       }
                   ?>
                  </table>
-
+<hr>
             <?php
                 $pagination_kol = mysqli_fetch_assoc(mysqli_query($connection,"SELECT CEILING(COUNT(*)/" . $limit_kol . ") as kol FROM `games`"))['kol'];
                 echo "<div class='pagination'>";
